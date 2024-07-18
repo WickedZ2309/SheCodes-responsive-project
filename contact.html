@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Connect with a skilled front-end developer from Canada on our contact page. Let's discuss your project and bring your ideas to life!"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,19 +31,55 @@
     />
     <link rel="stylesheet" href="css/portfolio.css" />
 
-    <title>Andrea G. - Contact me</title>
+    <title>Contact me - Andrea G.</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About me"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="My work"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact me"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="container content-container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:kinokio23@gmail.com">kinokio23@gmail.com</a>
+          <a href="mailto:kinokio23@gmail.com" title="Email me"
+            >kinokio23@gmail.com</a
+          >
         </p>
         <h3>X</h3>
         <p>
-          <a href="https://www.x.com/andreagshecodes" target="_blank"
+          <a
+            href="https://www.x.com/andreagshecodes"
+            title="Twitter-X"
+            target="_blank"
             >@andreag</a
           >
         </p>
@@ -47,11 +87,53 @@
         <p>
           <a
             href="https://www.instagram.com/andreagshecodes.codes"
+            title="Instagram"
             target="_blank"
             >@andreag.codes</a
           >
         </p>
       </div>
+
+      <footer>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:kinokio23@gmail.com"
+            class="email-link"
+            title="Email me"
+            >kinokio23@gmail.com</a
+          >
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/WickedZ2309"
+            target="_blank"
+            title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/andreagshecodes.codes"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.x.com/andreagshecodes"
+            target="_blank"
+            title="Twitter-X"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Andrea G, and it's
+          <a
+            href="https://github.com/WickedZ2309/SheCodes-responsive-project"
+            title="Project repository"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
